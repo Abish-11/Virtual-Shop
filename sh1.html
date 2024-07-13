@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spartan:wght@100;200;300;400;500; 600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" href="images/logo.png">
+    <title>Shirt Website</title>
+    <style>
+        body {
+            font-family: "Spartan";
+            font-style: normal;
+        }
+
+        h5 {
+            position: relative;
+            left: 130px;
+            color: whitesmoke;
+        }
+
+        #cart {
+            float: right;
+        }
+
+        #icon {
+            font-size: 2rem;
+            color: #088178;
+            border: 1px solid #088178;
+            border-radius: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        .icons {
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+        }
+        .icons:hover {
+            color: rgb(4, 88, 98);
+        }
+        .image1{
+            position: relative;
+            bottom: 20px;
+        }
+        @media screen and (max-width: 500px){
+            .navbar navbar-inverse{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse" role="navigation" style="position: -webkit-sticky;position: sticky;top:0;z-index: 1000;height: 150px; width: 100%;padding: 15px;background-color:#E3E6F3;box-shadow: 0 5px 10px 0 #888888;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!--<a class="navbar-brand" href="#">
+                    <h1><b style="color: black;">LUXIRIOUS WEAVE</b></h1>
+                    <h5 style="color: black;">VIRTUAL SHOP</h5>
+                </a>-->
+                <!--Logo Image-->
+                <div class="image1">
+                        <img src="images/shop logo.png" height="150px" width="200px">
+                    </div>
+            </div>
+            <ul class="nav navbar-nav navbar-right" id="navbar-head" style="position: relative;top: 50px;right: 20px;font-size: large;">
+                <li><a href="index.html"><span style="color: black;"><b>Home</b></span></a></li>
+                <li><a href="shop.html"><span style="color: black;"><b>Shop</b></span></a></li>
+                <li><a href="blog.html"><span style="color: black;"><b>Blog</b></span></a></li>
+                <li><a href="about.html"><span style="color: black;"><b>About</b></span></a></li>
+                <li><a href="contact.html"><span style="color: black;"><b>Contact-Us</b></span></a></li>
+                <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart" style="color: black;"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/f1.jpg" height="50%" width="500px">
+            </div>
+            <div class="col-md-8" style="position: relative;left: 15%;">
+                <small style="font-size: medium;">Home/T-Shirt</small>
+                <p>
+                <h3>Men's Fashion T-Shirt</h3>
+                </p>
+                <p>
+                <h3><b>$139.00</b></h3>
+                </p>
+                <select id="size" style="height: 30px;width: 120px;">
+                    <option selected>Select Size</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                    <option>XXXL</option>
+                </select><br><br>
+                <input type="number" value="1" min="1" max="1000"
+                    style="height: 50px; width: 50px;font-size: 20px;text-align: center;">
+                <button style="background-color: rgb(8, 127, 140);color: whitesmoke;border: 1px solid black;border-radius: 5px;height: 48px;width: 130px;text-align: center;"><b>Add To Cart</b></button>
+                <br><br>
+                <h2>Product Details</h2>
+                <p style="color: black;font-size:medium;text-align: justify;">T-shirts typically have short sleeves and a round neckline,
+                    often referred to as a crew neck, which is a collarless style. However, variations exist, including
+                    long-sleeved versions and different necklines like V-necks or scoop necks. Originally worn as an
+                    undergarment, T-shirts gained popularity as casual outerwear during the early to mid-20th century,
+                    especially among laborers and athletes. Over time, they became a staple in fashion, serving as a
+                    blank canvas for various designs, graphics, slogans, and branding. Today, T-shirts are worn by
+                    people of all ages and backgrounds, and they come in a wide range of colors, styles, and materials
+                    to suit different preferences and occasions.</p>
+            </div>
+        </div>
+        <br>
+        <center>
+            <h2 style="font-size: 50px;">Featured Products</h2>
+            <h4>Summer Collection New Modern Design</h4>
+        </center>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail" style="border: 1px solid #088178;border-radius: 15px;">
+                        <a href="images/s9.jpeg">
+                            <img src="images/s9.jpeg">
+                            <div class="caption">
+                                <p style="color: black; font-size: 15px;">adidhas</p>
+                                <p style="color: black; font-size: 18px;">Cartoon Astronaut T-shirt</p>
+                                <p style="color: black; font-size: 16px;">$ 78</p>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <div id="cart">
+                                    <a href="#"><span class="glyphicon glyphicon-shopping-cart" id="icon"></span></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail" style="border: 1px solid black;border-radius: 15px;">
+                        <a href="images/s10.jpeg">
+                            <img src="images/s10.jpeg">
+                            <div class="caption">
+                                <p style="color: black; font-size: 15px;">adidhas</p>
+                                <p style="color: black; font-size: 18px;">Cartoon Astronaut T-shirt</p>
+                                <p style="color: black; font-size: 16px;">$ 78</p>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <div id="cart">
+                                    <a href="#"><span class="glyphicon glyphicon-shopping-cart" id="icon"></span></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail" style="border: 1px solid black;border-radius: 15px;">
+                        <a href="images/s11.jpeg">
+                            <img src="images/s11.jpeg">
+                            <div class="caption">
+                                <p style="color: black; font-size: 15px;">adidhas</p>
+                                <p style="color: black; font-size: 18px;">Cartoon Astronaut T-shirt</p>
+                                <p style="color: black; font-size: 16px;">$ 78</p>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <div id="cart">
+                                    <a href="#"><span class="glyphicon glyphicon-shopping-cart" id="icon"></span></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail" style="border: 1px solid black;border-radius: 15px;">
+                        <a href="images/s12.jpeg">
+                            <img src="images/s12.jpeg">
+                            <div class="caption">
+                                <p style="color: black; font-size: 15px;">adidhas</p>
+                                <p style="color: black; font-size: 18px;">Cartoon Astronaut T-shirt</p>
+                                <p style="color: black; font-size: 16px;">$ 78</p>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <span class="fa fa-star checked" style="color: orange;"></span>
+                                <div id="cart">
+                                    <a href="#"><span class="glyphicon glyphicon-shopping-cart" id="icon"></span></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
